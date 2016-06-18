@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity
 
     private NoticiasController nc;
     /*
+    * Esta variable es usada para controlar el boton back
     * ESTADO:
     * Principal = la app se encuentra en la pantallla principal mostrando listado de noticias
     * Noticia = la app se encuentra mostrando una noticia
