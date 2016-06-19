@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
+        //Esto en un comentario que no se veria en masterBranch
         nc = new NoticiasController(this);
         AsynTaskNoti taskNoti = new AsynTaskNoti(nc, "Portada");
         taskNoti.execute();
