@@ -48,9 +48,6 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -119,7 +116,7 @@ public class MainActivity extends AppCompatActivity
             this.pbCargando = new ProgressBar(this);
             ((LinearLayout) findViewById(R.id.main_layout)).removeAllViews();
             ((LinearLayout) findViewById(R.id.main_layout)).addView(this.pbCargando);
-            Log.d("Resultados","Probando git...");
+            Log.d("Resultados", "Probando git...");
         } else if (id == R.id.nav_policiales) {
             Toast.makeText(this, "Policiales", Toast.LENGTH_LONG);
         } else if (id == R.id.nav_economia) {
